@@ -1,8 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import "./estilo.css";
 
 class Header extends Component {
     render() {
-        <header>
+        return(
+        <section>
             <ol>
                 <li>Drinks</li>
                 <li>Sobre nós</li>
@@ -10,8 +12,9 @@ class Header extends Component {
                 <li>Nosso Time</li>
                 <li>Contato</li>
             </ol>
-            <img></img>
-        </header>
+        </section>
+        );
     }
 }
+
 export default Header;

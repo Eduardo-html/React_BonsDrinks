@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
-import './index.css';
-import Header from './components/header';
-import Main from './components/main';
-import Footer from './components/footer';
+import React, { Component } from "react";
+import Header from "./components/Header";
+import Contato from "./components/Contato";
+import Footer from "./components/Footer";
+import "./assets/App.css";
+import './assets/index.css';
 
 class App extends Component {
   render() {
   return (
-      <section>
+      <section className="conteudo">
         <Header />
-        <Main />
+        <Contato />
         <Footer />
       </section>
     );
